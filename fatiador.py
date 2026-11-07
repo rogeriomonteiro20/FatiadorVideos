@@ -15,7 +15,7 @@ import yt_dlp
 # ==========================================
 # CONFIGURAÇÃO DA CHAVE E DO FFMPEG EMBUTIDO
 # ==========================================
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = ""
 CAMINHO_FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 
